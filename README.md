@@ -10,7 +10,7 @@ The first day I got the project I was ecstatic to get home and give it a shot. I
 
 ## Results
 
-![First Comp](images/dog-party-comp-1.jpg "Comp 1")
+![First Comp](images/dog-party-comp-1.png "Comp 1")
 
 ## Conclusion
 
