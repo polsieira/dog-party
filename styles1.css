@@ -1,0 +1,141 @@
+/** {
+  border: 1px solid red;
+}*/
+body {
+  background-color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+  border: 2px solid black;
+  width: 100%
+}
+header {
+  background-color: #75e2e6;
+  border-bottom: #048eaa solid 3px;
+}
+nav {
+  display: inline-block;
+  font-size: 15px;
+  float: right;
+  margin-top: 22px;  
+  margin-right: 10px
+  width: 200px;
+}
+a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+h2 {
+  font-weight: 400;
+}
+.top-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/park.jpg'); 
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;  
+  text-align: center;
+}
+#article-top {
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+}
+#heading-text {
+  margin-top: 0px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+fieldset {
+  border: 0;
+  font-size: 14px;
+  padding: 15px 0px 15px 0px;
+  text-align: left;
+}
+input {
+  box-sizing: border-box;
+  display: block;
+  height: 35px;
+  margin: 4px 0px 18px 0px;
+  padding: 3px 5px 3px 5px;
+  width: 100%;
+}
+label {
+  display: block;
+}
+#name-button {
+  background-color: #75e2e6;
+  font-size: 15px;
+  height: 35px;
+  margin-bottom: 12px;
+  padding: 3px;
+  width: 100%;
+}
+.content{
+  overflow: auto;
+  text-align: center;
+}
+#article-column1,
+#article-column2,
+#article-column3 {
+  display: inline-block;
+  padding: 0px 20px 0px 20px;
+  width: 300px;
+  height: 600px;
+  vertical-align: top;
+}
+.content-text {
+  text-align: left;
+}
+article p {
+	font-size: 15px;
+  min-height: 175px;
+}
+.content-button {
+  background-color: #048eaa;
+  color: #ffffff;
+  width: 100%;
+  height: 35px;
+  padding: 3px;
+  font-size: 15px;
+  vertical-align: bottom;
+  position: relative;
+}
+footer {
+  background-color: #048eaa;
+  color: #ffffff;
+  text-align: center;
+}
+#footer-text {
+  margin: 0px;
+  padding-top: 20px;
+  font-size: 15px;
+}
+#footer-social-media{
+	padding-bottom: 15px;
+}
+#header-img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  display: inline-block;
+  padding: 8px 0px 8px 20px;
+}
+.round-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: #048eaa solid 3px;
+}
+.social-media-img {
+  width: 50px;
+  height: 50px;
+  padding-bottom: 20px;
+}
+/*.clearfix:after {
+  content:' ';
+  display: table;
+  clear: both;
+}*/
+
+
