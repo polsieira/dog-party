@@ -1,33 +1,40 @@
 /** {
   border: 1px solid red;
 }*/
+/* Body */
 body {
   background-color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
-  margin: 0px;
   border: 2px solid black;
+  font-family: 'Open Sans', sans-serif;
+  margin: auto;
+  max-width: 1366px;
   width: 100%
 }
-header {
+/* Header */
+.header {
   background-color: #75e2e6;
   border-bottom: #048eaa solid 3px;
 }
-nav {
+.header-img {
   display: inline-block;
-  font-size: 15px;
-  float: right;
-  margin-top: 22px;  
-  margin-right: 10px
-  width: 200px;
+  height: 50px;
+  padding: 8px 0px 8px 20px;
+  vertical-align: middle;
+  width: 50px;
 }
-a {
+.header-nav {
+  display: inline-block;
+  float: right;
+  font-size: 15px;
+  margin-right: 20px;
+  margin-top: 22px; 
+}
+.header-nav-link {
   color: black;
   padding: 10px;
   text-decoration: none;
 }
-h2 {
-  font-weight: 400;
-}
+/* Top Section */
 .top-section {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/park.jpg'); 
   background-position: center bottom;
@@ -36,34 +43,37 @@ h2 {
   color: #ffffff;  
   text-align: center;
 }
-#article-top {
+.top-section-article {
   margin-left: auto;
   margin-right: auto;
-  width: 350px;
+  min-width: 275px;
+  width: 33%;
 }
-#heading-text {
+.top-section-article-heading {
+  font-weight: 400;
   margin-top: 0px;
   padding-bottom: 30px;
   padding-top: 30px;
 }
-fieldset {
+.top-section-article-fieldset {
   border: 0;
   font-size: 14px;
   padding: 15px 0px 15px 0px;
   text-align: left;
 }
-input {
+.top-section-article-fieldset-label {
+  display: block;
+}
+.top-section-article-fieldset-input {
   box-sizing: border-box;
   display: block;
+  font-size: 15px;
   height: 35px;
   margin: 4px 0px 18px 0px;
   padding: 3px 5px 3px 5px;
   width: 100%;
 }
-label {
-  display: block;
-}
-#name-button {
+.top-section-article-fieldset-button {
   background-color: #75e2e6;
   font-size: 15px;
   height: 35px;
@@ -71,71 +81,75 @@ label {
   padding: 3px;
   width: 100%;
 }
-.content{
+/* Content Section */
+.content-section{
   overflow: auto;
   text-align: center;
 }
-#article-column1,
-#article-column2,
-#article-column3 {
+.content-section-article {
   display: inline-block;
+  margin-bottom: 15px;
+  max-height: 
+  min-width: 250px;
   padding: 0px 20px 0px 20px;
-  width: 300px;
-  height: 600px;
   vertical-align: top;
+  width: 29%;
 }
-.content-text {
+.content-section-article-img {
+  height: 200px;
+  width: 200px;
+}
+.content-section-article-paragraph {
+  display: table;
+  font-size: 15px;
+  height: 230px;
   text-align: left;
 }
-article p {
-	font-size: 15px;
-  min-height: 175px;
-}
-.content-button {
+.content-section-article-button {
   background-color: #048eaa;
   color: #ffffff;
-  width: 100%;
+  font-size: 15px;
   height: 35px;
   padding: 3px;
-  font-size: 15px;
-  vertical-align: bottom;
-  position: relative;
+  width: 100%;
 }
-footer {
+.footer {
   background-color: #048eaa;
   color: #ffffff;
   text-align: center;
 }
-#footer-text {
+.footer-paragraph {
+  font-size: 15px;
   margin: 0px;
   padding-top: 20px;
-  font-size: 15px;
 }
-#footer-social-media{
+.footer-div{
 	padding-bottom: 15px;
 }
-#header-img {
-  width: 50px;
+.footer-div-img {
   height: 50px;
-  vertical-align: middle;
-  display: inline-block;
-  padding: 8px 0px 8px 20px;
+  padding-bottom: 20px;
+  width: 50px;
 }
-.round-img {
-  height: 200px;
-  width: 200px;
+/* General Image Classes */
+.img-round {
   border-radius: 50%;
   border: #048eaa solid 3px;
 }
-.social-media-img {
-  width: 50px;
-  height: 50px;
-  padding-bottom: 20px;
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  .content-section-article { 
+    display: block;
+    width: 100%;
+  }
 }
+
 /*.clearfix:after {
   content:' ';
   display: table;
   clear: both;
 }*/
+
+
 
 
