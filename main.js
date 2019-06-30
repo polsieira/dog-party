@@ -1,6 +1,9 @@
-function nameDog {
-  /*get the value from the input*/
-  var dogName = document.getElementById('name').value;
-  /*change the dog name in the HTML document*/
-  document.getElementById('heading-text') = 'A Site About <strong>dogName</strong>';
-}
+var name = document.getElementById( "strong-dog-name" );
+var nameInput = document.getElementsByClassName( "top-section-article-fieldset-input" );
+
+document.querySelector( "top-section-article-fieldset-button" ).addEventListener('click', function(event){
+  event.preventDefault();  
+  name.innerHTML = nameInput.value; 
+  nameInput.value = "";
+});
+
