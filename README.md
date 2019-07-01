@@ -5,8 +5,10 @@
 The objective of my first project at Turing is to build out a UI for a website based on a comp provided by a designer. Using the Sublime text editor, an index.html file is to be linked to two separate style sheets and a single JavaScript file. Unfortunately using CSS flex-box or grid for this project is not allowed, resulting in repeated banging of my head against a table. 
 
 ## Process
-git pu
+
 The first day I got the project I was ecstatic to get home and give it a shot. I only started with just HTML, no CSS at the beginning and knocked out the HTML in no time, but only using divs to break up my sections. The second day I realized that using HTML5 semantic elements would be considerably easier and cleaner to look at, so I started from scratch and copied over what I needed from my first attempt. With minor alignment issues and my nav bar (getting it to float right in my header) I finished the HTML and CSS that second day. I typically stay away from floats if I can but I got it to function properly with good aesthetics. Another problem I had was fonts. I had never used google fonts and didn't realize you need to link to the italic and bold versions of a font as well. Most issues though were easily Googleable or I could find examples similar enough in HTML and CSS by Jon Duckett. Multiple times while writing HTML I changed the layout of the webpage and drew out a new wire frame that would solve spacing issues that I would run into. Once I drew out a wireframe I would type up the HTML container by container and usually start with the least complicated and go into the containers with the most nesting last. As I worked I viewed my HTML and CSS in Chrome and used dev tools to monitor margins, borders, and padding. Dev tools made editing and debugging much easier, especially when writing CSS. 
+
+When working with the second comp the only way I could figure to move all the containers in the right spot was using the position attribute. Thinking left to right was a lot harder for me after thinking top down when making a HTML document. I fixed the nav bar to the right and used absolute positioning on the remaining large containers. Getting the smaller containers where I wanted them gave me headaches and I was unsuccesful with most of them.
 
 ## Results
 
@@ -19,13 +21,14 @@ I was able to get the website to look similar to the comp but the dimensions are
 
 Note: I did have a 2px black solid border around the body and the image capture did not capture it.
 
-<!-- <img src="images/dog-party-comp-2.png" alt="Second Comp" style="display: inline-block;
+<img src="images/dog-party-comp-2.png" alt="Second Comp" style="display: inline-block;
     margin-right: 10px;
     height: 400px;
-    width: 700px;"/> -->
+    width: 700px;"/>
 
+I had more difficulty with the second comp. The dimensions are off and I ran out of time trying to get the text and button to fit nicely next to the image in the content articles. 
 
 
 ## Conclusion
 
-Plan HTML layout ahead of time and draw it out. Planning goes a long way and it is easier to navigate the HTML code after making a plan. Also, CSS can be a real pain to edit layouts. When we begin to get the dimensions of the comp I want to start with the page size fixed and get all the elements in line so that at its original size the comps are identical.
+Plan HTML layout ahead of time and draw it out. Planning goes a long way and it is easier to navigate the HTML code after making a plan especially if using multiple style sheets. Also, CSS can be a real pain to edit layouts. When we begin to get the dimensions of the comp I want to start with the page size fixed and get all the elements in line so that at its original size the comps are identical. Lastly, I need to understand what floats do better because many times when I float right the image will do something completely unexpected.
